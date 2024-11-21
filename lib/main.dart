@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:peleka_rides/pages/rider_dashboard.dart';
+import 'package:peleka_rides/pages/view_map_route.dart';
 
 import 'authentication/forget_password.dart';
 import 'authentication/login.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return const MaterialApp(
           home: Scaffold(
-            body: ForgetPassword(),
+            body: ViewMapRoute(),
           ),
         );
       },
